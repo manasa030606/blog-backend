@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Prisma
+prisma/dev.db     # SQLite database file (if used during development)
+prisma/dev.db-journal
+
+# IDE or Editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Debugging files
+*.pid
+
+# Build artifacts
+dist/
